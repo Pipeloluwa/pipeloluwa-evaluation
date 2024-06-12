@@ -28,14 +28,14 @@ const  AnimatedButton = () => {
             
             className='p-2 flex items-center justify-end size-[74px] bg-[#202229] rounded-[30px]'>
             
-            <img loading= 'lazy' id= "sixthSegmentScroll" src="/images/vectors/vector-white.webp" alt="" className='z-10 pr-4 h-[15px]'/>
+            <img loading= 'lazy' id= "sixthSegmentScroll" src="/images/vectors/vector-white.webp" alt="" className='z-10 sm:pr-4 pr-6 h-[15px]'/>
         </motion.div>
 
         <motion.h1 
             id= "sixthSegmentScroll"
             animate= {{x:motionVar}}
             transition={{duration:0.5}}
-            className='pointer-events-none pr-[30px] absolute right-0 justify-end text-[22px] font-medium'
+            className='pointer-events-none pr-[30px] absolute right-0 justify-end sm:text-[22px] text-sm font-medium'
             >
 
             Learn More

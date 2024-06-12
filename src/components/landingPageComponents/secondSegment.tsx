@@ -139,7 +139,7 @@ const SecondSegment = () => {
                                     IT & Development
                                 </h1>
 
-                                <ul className='md:flex md:gap-x-[20px] md:w-auto w-full grid grid-cols-3 md:gap-y-0 gap-y-8 md:items-start items-center text-center text-[14px] font-semibold'>
+                                <ul className='md:flex md:gap-x-[20px] md:w-auto w-full grid sm:grid-cols-3 grid-cols-2 md:gap-y-0 gap-y-8 md:items-start items-center text-center text-[14px] font-semibold'>
                                     <li className='flex flex-col md:items-start items-center'>
                                         <div className='flex items-center justify-center size-[96px] rounded-full bg-[#F6F6F6]'>
                                             <img loading= 'lazy' alt='vector' src='/images/vectors/v1/shopify.webp' className='h-[40px]'/>                              
@@ -268,7 +268,7 @@ const SecondSegment = () => {
                                     Design & Creative
                                 </h1>
 
-                                <ul className='md:flex md:gap-x-[20px] md:w-auto w-full grid grid-cols-3 md:gap-y-0 gap-y-8 md:items-start items-center text-center text-[14px] font-semibold'>
+                                <ul className='md:flex md:gap-x-[20px] md:w-auto w-full grid sm:grid-cols-3 grid-cols-2 md:gap-y-0 gap-y-8 md:items-start items-center text-center text-[14px] font-semibold'>
                                     
                                     <li className='flex flex-col md:items-start items-center'>
                                         <div className='flex items-center justify-center size-[96px] rounded-full bg-[#F6F6F6]'>

@@ -20,13 +20,13 @@ export const FifthSegment = () => {
             <div className='flex flex-col gap-y-[30px]'>
                 
                 {/* ++++++++++++++++++++++++++ CARD 1 +++++++++++++++++++++++++++++++++ */}
-                <div className='-skew-y-3 overflow-hidden flex lg:h-[367.5px] h-full bg-[#EDEFFF]'>
+                <div className='-skew-y-3 overflow-hidden flex lg:h-[367.5px] h-full bg-[#EDEFFF] md:shadow-none shadow-xl shadow-black/15'>
                    
-                    <div className=' overflow-hidden flex lg:flex-row flex-col justify-between lg:items-start items-center w-full lg:h-full h-[750px] lg:gap-y-0 gap-y-6 lg:gap-x-4 py-[90px] md:px-[43px] px-4'>
+                    <div className=' overflow-hidden flex lg:flex-row flex-col justify-between lg:items-start items-center w-full lg:h-full h-[750px] lg:gap-y-0 gap-y-6 lg:gap-x-4 py-[90px] md:px-[43px] sm:px-4'>
                         
-                        <div className='skew-y-3 flex lg:w-auto w-full items-start -ml-2'>
+                        <div className='skew-y-3 flex lg:w-auto w-full items-start sm:-ml-2'>
                             
-                            <h1 className='opacity-[50%] bg-gradient-to-b from-[#A387D1] to-[#D1C4E2]/[46%] bg-clip-text leading-[0.75] text-transparent md:text-[112px] text-[80px] font-bold'>
+                            <h1 className='opacity-[50%] bg-gradient-to-b from-[#A387D1] to-[#D1C4E2]/[46%] bg-clip-text leading-[0.8] text-transparent md:text-[112px] text-[80px] font-bold'>
                                 1
                             </h1>
 
@@ -152,13 +152,13 @@ export const FifthSegment = () => {
 
 
                 {/* +++++++++++++ CARD 2 ++++++++++++++++ */}
-                <div className='-skew-y-3 overflow-hidden flex lg:h-[367.5px] h-full bg-[#FFF7E1]'>
+                <div className='-skew-y-3 overflow-hidden flex lg:h-[367.5px] h-full bg-[#FFF7E1] md:shadow-none shadow-xl shadow-black/15'>
                    
-                   <div className=' overflow-hidden flex lg:flex-row flex-col justify-between lg:items-start items-center w-full lg:h-full h-[750px] lg:gap-y-0 gap-y-6 lg:gap-x-4 py-[90px] md:px-[43px] px-4'>
+                   <div className=' overflow-hidden flex lg:flex-row flex-col justify-between lg:items-start items-center w-full lg:h-full h-[750px] lg:gap-y-0 gap-y-6 lg:gap-x-4 py-[90px] md:px-[43px] sm:px-4'>
                        
-                       <div className='skew-y-3 flex lg:w-auto w-full items-start -ml-2'>
+                       <div className='skew-y-3 flex lg:w-auto w-full items-start sm:-ml-2'>
                            
-                            <h1 className='opacity-[50%] bg-gradient-to-b from-[76%] from-[#FFBE2E]/[76%] to-transparent bg-clip-text leading-[0.75] text-transparent md:text-[112px] text-[80px] font-bold'>
+                            <h1 className='opacity-[50%] bg-gradient-to-b from-[76%] from-[#FFBE2E]/[76%] to-transparent bg-clip-text leading-[0.8] text-transparent md:text-[112px] text-[80px] font-bold'>
                                 2
                             </h1>
                            
@@ -347,16 +347,16 @@ export const FifthSegment = () => {
 
 
                 {/* ++++++++++++++++++++++++++++++ CARD 3 ++++++++++++++++++++++ */}
-                <div className='-skew-y-3 overflow-hidden flex lg:h-[367.5px] h-full bg-[#F3F3F3]'>
+                <div className='-skew-y-3 overflow-hidden flex lg:h-[367.5px] h-full bg-[#F3F3F3] md:shadow-none shadow-xl shadow-black/15'>
                     
-                    <div className=' overflow-hidden flex lg:flex-row flex-col justify-between items-center w-full lg:h-full h-[750px] lg:gap-x-4 px-[43px]'>
+                    <div className=' overflow-hidden flex lg:flex-row flex-col justify-between items-center w-full lg:h-full h-[750px] lg:gap-x-4 sm:px-[43px]'>
                         
-                        <div className='skew-y-3 flex lg:w-auto w-full items-start py-[90px] -ml-2'>
+                        <div className='skew-y-3 flex lg:w-auto w-full items-start py-[90px] sm:-ml-2'>
                            
                            <div className='opacity-[50%] bg-clip-text bg-gradient-to-b from-[76%] from-black/[80%] to-black/[16%] h-[83px]'>
                                
                            </div>
-                            <h1 className=' opacity-[50%] bg-clip-text bg-gradient-to-b from-[76%] from-black/[80%] to-black/[16%] leading-[0.75] text-transparent md:text-[112px] text-[80px] font-bold'>
+                            <h1 className=' opacity-[50%] bg-clip-text bg-gradient-to-b from-[76%] from-black/[80%] to-black/[16%] leading-[0.85] text-transparent md:text-[112px] text-[80px] font-bold'>
                                 3
                             </h1>
 
@@ -393,14 +393,14 @@ export const FifthSegment = () => {
                         <div className='skew-y-3 flex flex-col gap-y-[35px] lg:w-[468px] w-full h-full'>
                             <div className='flex w-full justify-between gap-x-2'>
                                 
-                                <div className='md:px-[24.96px] px-2 py-4 gap-y-[15.95px] flex flex-col w-[56%] h-[240px] rounded-[21px] bg-[#D8D2FF] shadow-xl shadow-black/[5%]'>
+                                <div className='md:px-[24.96px] px-2 py-4 gap-y-[15.95px] flex flex-col sm:w-[56%] h-[240px] rounded-[21px] bg-[#D8D2FF] shadow-xl shadow-black/[5%]'>
                                     
                                     <div className='flex items-center gap-x-2 w-full'>
-                                        <div className='overflow-hidden size-[76.13px] border-[3.2px] border-[#FDDD8B] rounded-full'>
+                                        <div className='overflow-hidden sm:size-[76.13px] size-[30px] border-[3.2px] border-[#FDDD8B] rounded-full'>
                                             <img loading= 'lazy' alt="avatar" src="images/avatars/avatar9.webp" className='flex w-full h-full object-cover' />
                                         </div>
 
-                                        <h1 className='flex flex-col text-[22px] w-[70px] font-semibold'>
+                                        <h1 className='flex flex-col sm:text-[22px] text-[12px] sm:w-[70px] font-semibold'>
                                             Allison Parker
                                         </h1>
 
@@ -426,7 +426,7 @@ export const FifthSegment = () => {
 
 
 
-                                <div className='overflow-hidden relative flex flex-col w-[38%] h-[240px] rounded-[21px] bg-[#D8D2FF] shadow-xl shadow-black/[5%]'>
+                                <div className='overflow-hidden relative flex flex-col sm:w-[38%] h-[240px] rounded-[21px] bg-[#D8D2FF] shadow-xl shadow-black/[5%]'>
                                      
                                      <div className='-ml-[160px] object-cover flex h-full'>
                                             <img loading= 'lazy' alt="avatar" src="images/avatars/avatar10.webp" className=' flex w-full h-full object-cover' />
@@ -435,7 +435,7 @@ export const FifthSegment = () => {
 
                                     <div className='absolute bg-[#A285D04D]/[30%] object-cover h-full w-full'/>
 
-                                    <h1 className='absolute flex h-full w-full items-center justify-center font-bold lg:text-[36px] md:text-[30px] text-[24px] text-white'>
+                                    <h1 className='absolute flex h-full w-full items-center justify-center font-bold lg:text-[36px] md:text-[30px] sm:text-[24px] text-white'>
                                         LEELAR
                                     </h1>
                                 

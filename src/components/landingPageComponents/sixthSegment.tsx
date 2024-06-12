@@ -1,5 +1,5 @@
-import { useEffect, useRef} from 'react'
 import { motion } from 'framer-motion'
+import useEmblaCarousel from 'embla-carousel-react'
 import {visibleComponent } from '../../animation_variants';
 
 
@@ -11,54 +11,8 @@ import SecondSixthSegment from './sixthSegmentSubComponents/secondSixthSegment';
 
 
 const SixthSegment = () => {
-    const scrollRef= useRef<HTMLDivElement>(null);
+    const [emblaRef] = useEmblaCarousel({dragFree: true});
     
-    let mouseX:number= 0;
-    let mouseY:number= 0;
-
-
-
-    useEffect(() => {
-        const scrollMove = (event: WheelEvent) => {
-          
-          if (scrollRef.current){
-            
-            const x= window.scrollX + mouseX;
-            const y= window.scrollY + mouseY;
-
-            const elementUnderCursor= document.elementsFromPoint(x, y)[0];
-        
-            if (elementUnderCursor.id === "sixthSegmentScroll") {
-  
-                const {deltaX, deltaY} = event;
-                scrollRef.current!.scrollLeft+= deltaX;
-                scrollRef.current!.scrollTop+= deltaY;
-                // console.log("sixthSegmentScroll");
-                
-            }     
-            
-          }
-         
-    
-        }
-
-
-        const mouseMove= (event: MouseEvent) => {
-            mouseX= event.clientX;
-            mouseY= event.clientY;
-
-        }
-
-
-        window.addEventListener("wheel", scrollMove);
-        window.addEventListener("mousemove", mouseMove);
-    
-        return () => {
-          window.removeEventListener('wheel', scrollMove);
-          window.removeEventListener("mousemove", mouseMove);
-      }
-      }, [window.innerHeight, window.innerWidth ]);
-
 
 
 
@@ -71,12 +25,12 @@ const SixthSegment = () => {
         id= "sixthSegmentScroll"
         
         className='-skew-y-3 w-full lg:px-0 px-6 md:pb-[187px] bg-gradient-to-b from-transparent to-[#EDEFFF]'>
-
+            
+            <div ref={emblaRef} id= "sixthSegmentScroll"   className='skew-y-3 overflow-hidden'>
                 <motion.div 
                     id= "sixthSegmentScroll"
-                    ref={scrollRef}
                     
-                    className='skew-y-3 overflow-hidden lg:py-4 grid grid-flow-col h-full w-full items-center'>
+                    className='lg:py-4 grid grid-flow-col h-full w-full items-center'>
                 
                     <FirstSixthSegment />
 
@@ -88,6 +42,7 @@ const SixthSegment = () => {
 
 
                 </motion.div>
+            </div>
 
     </motion.div>
   )

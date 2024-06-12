@@ -7,13 +7,13 @@ const SecondSixthSegment = () => {
     <div id='sixthSegmentScroll' className='relative flex ml-[95px] px-[58px] w-[1300px] h-[652px] bg-white shadow-xl shadow-[#BFB5FF26]/15 rounded-[20px]'>             
         <div id='sixthSegmentScroll' className='absolute left-[58px] top-[133px] flex flex-col gap-y-[37px]'>
 
-            <h1 id='sixthSegmentScroll' className='text-[54px] w-[464px] leading-[64px] font-bold'>
+            <h1 id='sixthSegmentScroll' className='sm:text-[54px] text-[30px] w-[464px] leading-[64px] font-bold'>
                 Onboard without the risk.
             </h1>
 
 
             <div id='sixthSegmentScroll' className='flex flex-col'>
-                <ul id='sixthSegmentScroll' className='flex items-center gap-x-[16px] text-[22px] leading-[32px]'>
+                <ul id='sixthSegmentScroll' className='flex items-center gap-x-[16px] sm:text-[22px] text-sm leading-[32px]'>
                     <li id='sixthSegmentScroll' className='w-[18px] h-[7px] bg-[#50589F] rounded-[21px]'/>
 
                     <li id='sixthSegmentScroll'>
@@ -22,7 +22,7 @@ const SecondSixthSegment = () => {
                 </ul>
 
 
-                <ul id='sixthSegmentScroll' className='flex items-center gap-x-[16px] text-[22px] leading-[32px]'>
+                <ul id='sixthSegmentScroll' className='flex items-center gap-x-[16px] sm:text-[22px] text-sm leading-[32px]'>
                     <li id='sixthSegmentScroll' className='w-[18px] h-[7px] bg-[#50589F] rounded-[21px]'/>
 
                     <li id='sixthSegmentScroll'>
@@ -31,7 +31,7 @@ const SecondSixthSegment = () => {
                 </ul>
 
 
-                <ul id='sixthSegmentScroll' className='flex items-center gap-x-[16px] text-[22px] leading-[32px]'>
+                <ul id='sixthSegmentScroll' className='flex items-center gap-x-[16px] sm:text-[22px] text-sm leading-[32px]'>
                     <li id='sixthSegmentScroll' className='w-[18px] h-[7px] bg-[#50589F] rounded-[21px]'/>
 
                     <li id='sixthSegmentScroll'>
