@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('/fonts/switzer/Switzer-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Switzer-Regular';
+  src: url('/fonts/Switzer-Regular.woff2') format('woff2'),
+       url('/fonts/Switzer-Regular.woff') format('woff'),
+       url('/fonts/Switzer-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@layer base{
+  html {
+    font-family: Switzer-Regular, sans-serif;
+  }
+}
+
+body {
+  overflow: hidden;
+}
+
+  
+.page-margin{
+  @apply  lg:mx-[70px] md:mx-[50px] mx-[20px];
+}
+
+.page-padding{
+  @apply  lg:px-[70px] md:px-[50px] px-[20px];
+}
